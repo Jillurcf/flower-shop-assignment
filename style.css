@@ -65,7 +65,9 @@ body {
 
 }
 
-.banner-content-left-part-description {}
+
+
+/* Main part start from here */
 
 /* our-featured-flowers section start from here */
 .our-featured-flowers {
@@ -330,9 +332,50 @@ input[type=submit] {
     border-radius: 5px;
     border: 0;
     cursor: pointer;
-    padding: ;
     width: 100px;
     background-color: #E55473;
+}
 
+/* footer part start from here */
+footer {
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.footer-title-design {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    align-items: center;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+
+    font-size: 16px;
+
+    font-weight: 400;
 
 }
