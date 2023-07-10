@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
+/* shared content */
+body {
+    font-family: Lato;
+
+}
+
+/* primary color #E55473 */
+.btn-primary {
+    background-color: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+/* banner section start from here */
+.banner-container {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    align-items: center;
+
+
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 850px;
+    align-items: center;
+
+}
+
+.banner-content-left-part-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.banner-img {
+    width: 550px;
+    margin-bottom: -92px;
+}
+
+.banner-content-left-part-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0;
+}
